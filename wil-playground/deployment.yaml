@@ -17,4 +17,4 @@ spec:
       - image: docker.io/wil42/playground:v1
         name: wil-playground
         ports:
-        - containerPort: 81
+        - containerPort: 8888

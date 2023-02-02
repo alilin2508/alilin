@@ -17,4 +17,3 @@ spec:
             name: wil-playground
             port:
               number: 8888
-            targetPort: 8888

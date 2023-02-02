@@ -4,6 +4,7 @@ metadata:
   name: wil-ingress
   annotations:
     nginx.ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: "traefik"
 spec:
   ingressClassName: nginx-example
   rules:
@@ -16,3 +17,4 @@ spec:
             name: wil-playground
             port:
               number: 8888
+
